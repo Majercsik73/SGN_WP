@@ -12,74 +12,74 @@ function compileTemplate($filePath, $params =[]): string
 //------------------
 // INFORMÁCIÓS KÁRTYÁK SZÁMA:
 
-$slidePieces = 9;
+$slidePieces = 3;
 
 //------------------
 
 switch ($slidePieces) {
     case 1:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide1.phtml',[
+            'content' => compileTemplate('slide1.html',[
             ]),
         ]);
         break;
     case 2:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide2.phtml',[
+            'content' => compileTemplate('slide2.html',[
             ]),
         ]);
         break;
     case 3:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide3.phtml',[
+            'content' => compileTemplate('slide3.html',[
             ]),
         ]);
         break;
     case 4:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide4.phtml',[
+            'content' => compileTemplate('slide4.html',[
             ]),
         ]);
         break;
     case 5:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide5.phtml',[
+            'content' => compileTemplate('slide5.html',[
             ]),
         ]);
         break;
     case 6:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide6.phtml',[
+            'content' => compileTemplate('slide6.html',[
             ]),
         ]);
         break;
     case 7:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide7.phtml',[
+            'content' => compileTemplate('slide7.html',[
             ]),
         ]);
         break;
     case 8:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide8.phtml',[
+            'content' => compileTemplate('slide8.html',[
             ]),
         ]);
         break;
     case 9:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide9.phtml',[
+            'content' => compileTemplate('slide9.html',[
             ]),
         ]);
         break;
     case 10:
         echo compileTemplate('wrapper.phtml', [
-            'content' => compileTemplate('slide10.phtml',[
+            'content' => compileTemplate('slide10.html',[
             ]),
         ]);
         break;
     default:
     echo compileTemplate('wrapper.phtml', [
-        'content' => compileTemplate('timeAndWeather.phtml',[
+        'content' => compileTemplate('timeAndWeather.html',[
         ]),
     ]);
     break;
