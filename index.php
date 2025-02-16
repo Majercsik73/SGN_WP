@@ -12,7 +12,7 @@ function compileTemplate($filePath, $params =[]): string
 //------------------
 // INFORMÁCIÓS KÁRTYÁK SZÁMA:
 
-$slidePieces = 3;
+$slidePieces = 2;
 
 //------------------
 
